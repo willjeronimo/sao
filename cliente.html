@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <!-- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAO - Sistema de Agendamento Online</title>
+
+    <!-- Icones -->
+    <link rel="stylesheet" href="assets/fonts/style.css" />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">Sistema de Agendamento <span>Online</span>.</a>
+        <!-- menu -->
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="index.html">Início</a></li>
+          </ul>
+        </div>
+        <!-- /menu -->
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
+      </nav>
+    </header>
+    
+    <main>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="assets/fotos/10.jpg"
+              alt="logo da empresa"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title"></h2>
+            <a class="button" href="">Cadastro de Cliente</a>
+            <p>
+              <h1>
+                <ul class="grid">
+                  
+                  <form method="get" action="envio_dados.php">
+                    <h5>Nome:</h5>
+                    <li><input type="text" name="nome" placeholder="Digite seu Nome aqui"></li>
+                    <h5>E-mail:</h5>
+                    <li><input type="e-mail" name="email" placeholder="Digite seu e-mail"></li>
+                    <h5>Telefone:</h5>
+                    <li><input type="text" name="nome" placeholder="Digite seu Telefone aqui"></li>
+                    <h5>Celular:</h5>
+                    <li><input type="text" name="nome" placeholder="Digite seu Celular aqui"></li>
+                    <h5>CPF:</h5>
+                    <li><input type="text" name="nome" placeholder="Digite seu CPF aqui"></li>
+                    <h5>Endereço:</h5>
+                    <li><input type="text" name="nome" placeholder="Digite seu Endereço aqui"></li>
+                    <h5>Cidade:</h5>
+                    <li><input type="text" name="nome" placeholder="Digite sua Cidade aqui"></li>
+                    <h5>Estado:</h5>
+                    <li><input type="text" name="nome" placeholder="Digite seu Estado aqui"></li>
+                    <h5></h5>
+                    <li><input type="submit" name="enviar" value="Enviar"></li>    
+                  </form>
+                  
+                </ul>
+              </h1>
+            </p>
+
+          </div>
+        </div>
+      </section>
